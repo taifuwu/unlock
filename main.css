@@ -1,0 +1,58 @@
+
+input[type="tel"] {
+  width: 11em;
+}
+
+input + span {
+  padding-right: 30px;
+}
+
+input[type="tel"]:invalid+span:after {
+  position: absolute; content: '格式：13219303673';
+  padding-left: 5px;
+    font-size:.8em;
+  /* color: #8b0000; */
+}
+
+input:valid+span:after {
+  position: absolute;
+  content: '✓';
+  padding-left: 5px;
+  color: #009000;
+}
+
+label{
+  width: 7em;
+  /* height: 12em; */
+  display: inline-block;
+  vertical-align: top;
+}
+.alipay{
+  /* height: 12em; */
+  background-image: sc;
+  /* margin-top: auto; */
+}
+.alipay img{
+  WIDTH: 3em;
+  DISPLAY: inline;
+  vertical-align: top;
+}
+.inprice{
+  color: #9c9c9c;
+  text-decoration: line-through;
+}
+img{/* vertical-align: top; *//* float: left; */}
+.pay{
+  text-align: center;
+}
+from{
+  display:inline-block;
+  width:20em;
+  text-align: left;
+}
+legend{
+  font-size:1.5em;
+}
+fieldset{
+  margin-top:1em;
+}
